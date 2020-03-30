@@ -1,0 +1,16 @@
+[
+    {
+        "exec": "pcmanfm",
+        "interrupts": [
+            {
+                "code": -5,
+                "response": "close"
+            }
+        ],
+        "reopen": true
+    },
+    {
+        "exec": "gnome-terminal",
+        "reopen": false
+    }
+]
